@@ -1,0 +1,39 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data & models (do NOT push large ML files)
+processed_data/
+data/
+models/
+
+# Large experiment artifacts (add these lines)
+ai_trace_finder/results/hybrid_cnn/*.pkl
+ai_trace_finder/results/hybrid_cnn/*.npy
+ai_trace_finder/results/hybrid_cnn/*.png
+ai_trace_finder/results/hybrid_cnn/*.h5
+ai_trace_finder/results/hybrid_cnn/*.keras
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Large experiment artifacts
+results/hybrid_cnn/
+src/results/hybrid_cnn/
+ai_trace_finder/results/hybrid_cnn/
+
+
